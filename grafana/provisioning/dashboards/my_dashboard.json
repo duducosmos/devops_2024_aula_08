@@ -1,0 +1,19 @@
+{
+    "dashboard": {
+        "annotations": {
+            "list": []
+        },
+        "panels": [
+            {
+                "datasource": "Prometheus",
+                "targets": [
+                    {
+                        "expr": "app_requests_total",
+                        "format": "time_series"
+                    }
+                ],
+                "title": "Total App Requests"
+            }
+        ]
+    }
+}
